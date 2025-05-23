@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>erick breno | Home</title>
+  <meta name="description" content="Portfólio Front End Developer - erick  breno de morais"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="/imgs/favicon.ico" rel="icon" type="image/x-icon" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-51H2XTE9XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-51H2XTE9XE');
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-content" data-menu="suave">
+        <div class="nav-logo">
+          <img src="/imgs/favicon.ico" alt="">
+        </div>
+        <div class="nav-list">
+          <button class="btn-mobile">
+            <span id="hamburguer"></span>
+          </button>
+          <ul id="list">
+            <li><a href="#descricao">Home</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li data-dropdown>
+              <a href="#descricao">Contato</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" target="_blank"><img
+                      src="imgs/logos/linkedin-black.png" alt="Linkedin" width="35" height="35"></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><img
+                      src="imgs/logos/github-logo-footer.png" alt="GitHub" width="35" height="35">
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:#" target="_blank"><img src="imgs/logos/email-black.png"
+                      alt="E-mail" width="35" height="35"></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><img src="imgs/logos/insta-logo.png"
+                      alt="Instagram" width="35" height="35"></a>
+                </li>
+              </ul>
+            <li>
+              <a href="#">
+              <img src="https://img.freepik.com/vetores-premium/lupa-icone-preto-simbolo-de-pesquisa-olhe-o-sinal_53562-18721.jpg" alt="lupa" class="lupa">
+              <input class="pesquisa" type="text">
+              </a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="descricao" id="descricao">
+    <div class="container-descricao">
+      <div class="descricao-apresentacao">
+        <h1 class="titulo">Seja Bem Vindo, me chamo Erick Breno.</h1>
+        <a href="imgs/curriculo.pdf" download="curriculo.pdf" id="curriculo">Currículo</a>
+      </div>
+      <div class="txt-container">
+        <h1 class="titulo-descricao">Desenvolvedor <br><span class="detalhe">Front End</span>
+      </div>
+    </div>
+     <section class="projetos" id="projetos">
+      <h2 id="projetos">Projetos</h2>
+      <div class="container-cards">
+        </div>
+      </section>
+      <footer>
+    <div class="footer-container fim" id="footer">
+      <h2 class="footer-h2">FIM</h2>
+      </footer>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
